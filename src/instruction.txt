@@ -1,0 +1,42 @@
+Utilisation des contextes en React
+Dans cet exercice, vous allez créer un thème simple pour votre application React en utilisant les contextes. Le thème aura deux propriétés : "couleurPrincipale" et "police".
+
+Étapes :
+
+Initialisez un nouveau projet React à l'aide de Create React App ou d'une méthode similaire.
+
+
+Créez un fichier nommé "ThemeContext.js" pour définir le contexte du thème.
+
+
+Dans "ThemeContext.js", importez les modules nécessaires pour créer un contexte en React.
+
+
+Créez un contexte de thème en utilisant la fonction "createContext" de React, avec des valeurs par défaut pour "couleurPrincipale" et "police".
+
+
+Exportez le contexte pour pouvoir l'utiliser ailleurs dans l'application.
+
+
+Dans "App.js" (ou tout autre composant racine de votre application), enveloppez le contenu de l'application avec le contexte de thème que vous avez créé.
+
+
+Dans "App.js", affichez le texte "Thème : [couleurPrincipale] - Police : [police]" pour vérifier que le contexte fonctionne correctement.
+Créez un composant fonctionnel nommé "Header.js".
+
+
+Dans "Header.js", utilisez le contexte de thème pour afficher le texte "Thème : [couleurPrincipale] - Police : [police]".
+Créez un composant fonctionnel nommé "ThemeChanger.js".
+
+
+Dans "ThemeChanger.js", utilisez le contexte de thème pour afficher un formulaire simple permettant de modifier la couleur principale et la police.
+
+
+Lorsque l'utilisateur soumet le formulaire, mettez à jour les propriétés du contexte avec les nouvelles valeurs saisies.
+
+
+Assurez-vous que les modifications du contexte sont répercutées dans l'ensemble de l'application, y compris dans le composant "Header.js".
+
+
+Testez votre application en changeant le thème à l'aide du formulaire et vérifiez que les changements sont bien appliqués partout où le contexte est utilisé.
+
