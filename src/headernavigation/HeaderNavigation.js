@@ -39,9 +39,9 @@ function HeaderNavigation() {
                                 <a href="/" className="nav-link active" style={{ color: colorText }} aria-current="page">Acceuil</a>
                             </li>
 
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="/propos" className="nav-link" style={{ color: colorText }}>A-propos</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 
@@ -50,9 +50,9 @@ function HeaderNavigation() {
                             <a href="/" className="nav-link active" aria-current="page" style={{ color: colorText }}>Acceuil</a>
                         </li>
 
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="/propos" className="nav-link" style={{ color: colorText }}>A-propos</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>
