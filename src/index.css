@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#change {
+  flex-wrap: wrap;
+  row-gap: 23px;
+  align-items: center;
+}
+
+.hauteur {
+  height: 100%;
+  object-fit: cover;
+  transition: all 700ms ease-in-out ;
+  cursor: pointer;
+}
+
+.hauteur:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  opacity: 0.5;
+}
+
+/* HeaderNavigation */
+#selection {
+  outline: none;
+}
